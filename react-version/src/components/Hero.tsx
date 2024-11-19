@@ -1,12 +1,18 @@
 const Hero = () => {
   return (
     <div>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla commodi
-        quisquam facilis, soluta a delectus recusandae voluptatibus unde, enim
-        laborum doloremque cupiditate repellat alias distinctio blanditiis animi
-        minus, veniam nesciunt.
-      </p>
+      <p>Bienvenido a mi portfolio</p>
+      <p>Ahora te presento unos proyectos realizados:</p>
+      <ol>
+        <li>
+          <a
+            href="https://www.mint.juansubas.com"
+            className="text-blue-500 hover:text-blue-700 underline"
+          >
+            Link Mint
+          </a>
+        </li>
+      </ol>
     </div>
   );
 };
