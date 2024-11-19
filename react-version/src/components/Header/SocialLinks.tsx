@@ -11,22 +11,22 @@ const SocialLinks = () => {
       <ul className="flex justify-center gap-4">
         <li>
           <a href="https://www.youtube.com/Juansubas" target="_blank">
-            <FaYoutube size={25}/>
+            <FaYoutube size={25} className="hover:text-slate-950"/>
           </a>
         </li>
         <li>
           <a href="https://github.com/juansubas" target="_blank">
-            <FaGithub size={25}/>
+            <FaGithub size={25} className="hover:text-slate-950"/>
           </a>
         </li>
         <li>
           <a href="https://gitlab.com/Juansubas" target="_blank">
-            <FaSquareGitlab size={25}/>
+            <FaSquareGitlab size={25} className="hover:text-slate-950"/>
           </a>
         </li>
         <li>
           <a href="https://www.linkedin.com/in/juansubass/" target="_blank">
-            <FaLinkedin size={25}/>
+            <FaLinkedin size={25} className="hover:text-slate-950"/>
           </a>
         </li>
       </ul>

@@ -1,5 +1,5 @@
 import { Navbar } from "../Navbar"
-import Brand from "./brand"
+import Brand from "./Brand"
 import SocialLinks from "./SocialLinks"
 
 const Header = () => {
