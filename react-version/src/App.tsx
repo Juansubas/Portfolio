@@ -6,7 +6,7 @@ import Hero from './components/Hero'
 function App() {
 
   return (
-    <main>
+    <main className='flex flex-col items-center justify-between w-full h-screen'>
       <Header/>
       <Hero/>
       <Footer/>
