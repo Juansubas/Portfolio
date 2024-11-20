@@ -8,6 +8,7 @@ const Hero = () => {
           <a
             href="https://www.mint.juansubas.com"
             className="text-blue-500 hover:text-blue-700 underline"
+            target="_blank"
           >
             Link Mint
           </a>

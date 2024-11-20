@@ -1,11 +1,21 @@
-import './App.css';
-import Home from './pages/Home';
+import "./App.css";
+import {
+  BrowserRouter as Router,
+  Route,
+  Routes,
+  BrowserRouter,
+} from "react-router-dom";
+import Home from "./pages/Home";
+import { NotFound } from "./pages/NotFound";
 
 function App() {
   return (
-    <>
-      <Home/>
-    </>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="*" element={<NotFound />}/>
+      </Routes>
+    </BrowserRouter>
   );
 }
 
