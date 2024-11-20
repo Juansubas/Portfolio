@@ -1,14 +1,11 @@
-import Footer from "../components/Footer";
-import Header from "../components/Header/Header";
 import Hero from "../components/Hero";
+import Layout from "../components/Layout";
 
 const Home = () => {
   return (
-    <>
-      <Header />
+    <Layout > 
       <Hero />
-      <Footer />
-    </>
+    </Layout> 
   );
 };
 

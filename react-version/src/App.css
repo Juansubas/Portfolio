@@ -1,6 +1,6 @@
 #root {
   margin: 0 auto;    /* Centrar el contenedor */
-  padding: 0 0.5rem;   /* Relleno horizontal para evitar que el contenido toque los bordes */
+  padding: 0 0.3rem;   /* Relleno horizontal para evitar que el contenido toque los bordes */
   box-sizing: border-box; /* Asegura que el padding no afecte el tamaño total */
 }
 
