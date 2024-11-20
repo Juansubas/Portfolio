@@ -1,4 +1,4 @@
-import { Navbar } from "../Navbar"
+import { Navbar } from "./Navbar"
 import Brand from "./Brand"
 import SocialLinks from "./SocialLinks"
 

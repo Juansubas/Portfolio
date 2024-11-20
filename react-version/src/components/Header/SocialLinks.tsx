@@ -15,12 +15,12 @@ const SocialLinks = () => {
           </a>
         </li>
         <li>
-          <a href="https://github.com/juansubas" target="_blank">
+          <a href="https://www.github.com/juansubas" target="_blank">
             <FaGithub size={25} className="hover:text-slate-950"/>
           </a>
         </li>
         <li>
-          <a href="https://gitlab.com/Juansubas" target="_blank">
+          <a href="https://www.gitlab.com/Juansubas" target="_blank">
             <FaSquareGitlab size={25} className="hover:text-slate-950"/>
           </a>
         </li>
