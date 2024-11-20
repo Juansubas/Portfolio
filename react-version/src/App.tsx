@@ -1,17 +1,14 @@
-import './App.css'
-import Header from './components/Header/Header'
-import Footer from './components/Footer'
-import Hero from './components/Hero'
+import './App.css';
+import Home from './pages/Home';
 
 function App() {
-
   return (
-    <main className='flex flex-col items-center justify-between w-full h-screen'>
-      <Header/>
-      <Hero/>
-      <Footer/>
+    <main
+      className="flex flex-col items-center justify-between w-full min-h-screen "
+    >
+      <Home/>
     </main>
-  )
+  );
 }
 
-export default App
+export default App;

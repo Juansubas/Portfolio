@@ -12,6 +12,11 @@
   color-scheme: light dark; /* Habilitar modo claro y oscuro */
   --primary-color: #ffffff; /* Color de texto principal */
   --background-color: #050e2ca2; /* Color de fondo */
+  --background-radial: radial-gradient(
+    125% 125% at 50% 10%,
+    #000 40%,
+    rgb(51, 95, 238) 100%
+  );
 }
 
 /* Aplicar box-sizing: border-box a todos los elementos */
@@ -26,8 +31,10 @@ body {
   margin: 0;
   padding: 0;
   font-family: Arial, sans-serif;
-  background-color: var(--background-color); /* Usar la variable para el fondo */
+  background-color: var(
+    --background-color
+  ); /* Usar la variable para el fondo */
+  background: var(--background-radial);
+  min-height: 100vh;
   color: var(--primary-color); /* Usar la variable para el color del texto */
 }
-
-
