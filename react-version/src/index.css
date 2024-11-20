@@ -28,13 +28,15 @@
 
 /* Estilos básicos para el body */
 body {
+  position: relative;
   margin: 0;
   padding: 0;
   font-family: Arial, sans-serif;
-  background-color: var(
-    --background-color
-  ); /* Usar la variable para el fondo */
-  background: var(--background-radial);
+  background-color: var(--background-color); /* Usar la variable para el fondo */
+  background: var(--background-radial); /* Usar la variable para el fondo radial */
+  background-attachment: fixed; /* Hace que el fondo sea fijo al hacer scroll */
+  background-size: cover; /* Asegura que el fondo cubra toda la pantalla */
+  background-position: center center; /* Centra el fondo */
   min-height: 100vh;
   color: var(--primary-color); /* Usar la variable para el color del texto */
 }

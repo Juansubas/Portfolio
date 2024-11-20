@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 const NotFoundComponent = () => {
   return (
-    <div>
+    <section className="section">
       <p>Esta pagina no existe</p>
       <p>Por Favor regresa al inicio</p>
       <ol>
@@ -12,7 +12,7 @@ const NotFoundComponent = () => {
           </Link>
         </li>
       </ol>
-    </div>
+    </section>
   );
 };
 

@@ -1,6 +1,6 @@
 const Hero = () => {
   return (
-    <div>
+    <section className="section">
       <p>Bienvenido a mi portfolio</p>
       <p>Ahora te presento unos proyectos realizados:</p>
       <ol>
@@ -14,7 +14,7 @@ const Hero = () => {
           </a>
         </li>
       </ol>
-    </div>
+    </section>
   );
 };
 
