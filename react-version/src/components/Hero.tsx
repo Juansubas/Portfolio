@@ -10,9 +10,9 @@ const Hero = () => {
               Juansubas
             </span>
           </h2>
-          <h3 className="text-2xl font-bold text-white mt-2">
+          {/* <h3 className="text-2xl font-bold text-white mt-2">
             YouTuber | Ingeniero Industrial | Desarrollador de Software
-          </h3>
+          </h3> */}
           {/* <p className="text-xl text-white pt-5 text-justify pr-3">
             Soy un apasionado desarrollador con experiencia en React, Next.js,
             NestJS, Express y .NET. Me encanta crear soluciones innovadoras y
