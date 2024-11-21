@@ -24,10 +24,8 @@ const ContactPage = () => {
             alcanzarme:
           </p>
 
-          {/* Información de contacto */}
           <Contact/>
 
-          {/* Frase inspiracional */}
           <p className="text-lg italic font-light mt-4">
             "La tecnología puede ser el motor que impulse tus ideas, y yo
             quiero ser la fuerza detrás de tu proyecto. ¡Conectemos!"

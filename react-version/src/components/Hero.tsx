@@ -2,7 +2,6 @@ const Hero = () => {
   return (
     <section id="hero" className="section mx-auto self-center">
       <div className="grid grid-cols-1 lg:grid-cols-[60%,40%] px-5 md:px-16 lg:px-24 items-start">
-        {/* Texto / Descripción */}
         <div className="flex flex-col m-4 text-black">
           <h1 className="text-4xl sm:text-5xl md:text-7xl lg:text-8xl font-bold text-white">
             Hola Mundo
@@ -24,10 +23,9 @@ const Hero = () => {
           </p>
         </div>
 
-        {/* Imagen */}
         <div className="text-black flex justify-center mt-5 md:mt-0">
           <img
-            src="./juansubas.png"
+            src="./public/juansubas.png"
             alt="foto perfil"
             className="h-48 w-48 sm:h-64 sm:w-64 md:h-96 md:w-96 lg:h-[400px] lg:w-[400px] cursor-pointer rounded-full shadow-xl shadow-slate-700 hover:scale-105 hover:shadow-2xl hover:shadow-slate-900 transition-transform object-cover object-center"
           />
