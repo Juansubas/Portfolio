@@ -20,7 +20,7 @@ const Header = () => {
         <SocialLinks />
       </div>
 
-      <div className="fixed px-5 md:hidden flex flex-row justify-between items-center w-full bg-[rgba(0,0,0,0.5)] backdrop-blur-md pt-6 shadow-md">
+      <div className="fixed px-5 md:hidden flex flex-row justify-between items-center w-full bg-[rgba(0,0,0,0.5)] backdrop-blur-md pt-6 pb-2 shadow-md">
         <Brand />
         {!isOpen ? (
           <GiHamburgerMenu onClick={menuOpen} size={30} />
