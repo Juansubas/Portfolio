@@ -2,11 +2,11 @@ const Hero = () => {
   return (
     <section className="section mt-16">
       <div className="grid md:grid-cols-[60%,40%] px-16 items-center truncate">
-        <div className="flex flex-col m-4 text-black truncate">
+        <div className="flex flex-col m-4 text-black ">
           <h1 className="text-7xl font-bold text-white">Hola Mundo</h1>
-          <h2 className="text-7xl font-bold text-white truncate">
+          <h2 className="text-7xl font-bold text-white ">
             Soy{" "}
-            <span className="w-full font-bold bg-gradient-to-r from-gray-400 via-blue-900 to-blue-950 text-transparent bg-clip-text truncate">
+            <span className="w-full font-bold bg-gradient-to-r from-gray-400 via-blue-900 to-blue-950 text-transparent bg-clip-text ">
               Juansubas
             </span>
           </h2>
@@ -21,7 +21,7 @@ const Hero = () => {
           </p>
         </div>
 
-        <div className=" text-black flex justify-center truncate">
+        <div className=" text-black flex justify-center ">
           <img
             src="./juansubas.png"
             alt="foto perfil"
