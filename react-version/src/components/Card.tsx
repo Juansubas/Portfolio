@@ -13,7 +13,7 @@ const Card = ({
 }) => {
   return (
     <section className="bg-slate-800 rounded-lg px-3 py-3 flex flex-col justify-between h-full">
-      <img src={img} alt="image" className="h-[200px] w-[380px] object-cover rounded-lg mb-2" />
+      <img src={img} alt="image" className="self-center h-[200px] w-[380px] object-cover rounded-lg mb-2" />
       <h1 className="text-xl font-bold">{title}</h1>
       <p className="text-white overflow-hidden text-ellipsis  h-[70px]">{description}</p> 
       <div className="flex flex-row justify-between mt-2">
