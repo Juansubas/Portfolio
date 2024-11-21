@@ -4,7 +4,7 @@ import { projects } from "../data/projectsData";
 const Projects = () => {
   return (
     <section id="projects" className="section">
-      <h1 className="self-center text-4xl pb-5">My Projects</h1>
+      <h1 className="grid grid-cols-1 w-10/12 text-4xl pb-5">My Projects</h1>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-10 w-10/12">
         {projects.map((project, index) => {
           return (

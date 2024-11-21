@@ -29,7 +29,7 @@ const Header = () => {
         )}
       </div>
 
-      <div className="fixed md:hidden mt-14 w-full">{isOpen && <Navbar />}</div>
+      <div className="fixed md:hidden mt-0 md:mt-14 w-full">{isOpen && <Navbar />}</div>
     </header>
   );
 };
