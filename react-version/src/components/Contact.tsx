@@ -5,7 +5,7 @@ const Contact = () => {
     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 gap-6 mt-4">
       <div className="flex items-center space-x-3">
         <FaEnvelope className="text-blue-900 text-3xl" />
-        <p className="text-lg">juansubas@example.com</p>
+        <p className="text-lg">juansubas@gmail.com</p>
       </div>
       <div className="flex items-center space-x-3">
         <FaGithub className="text-blue-900 text-3xl" />
@@ -32,7 +32,7 @@ const Contact = () => {
       <div className="flex items-center space-x-3">
         <FaLinkedin className="text-blue-900 text-3xl" />
         <a
-          href="https://linkedin.com/in/juansubas"
+          href="https://linkedin.com/in/juansubass"
           target="_blank"
           rel="noopener noreferrer"
           className="text-lg hover:underline"
