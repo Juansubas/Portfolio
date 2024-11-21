@@ -44,6 +44,11 @@ body {
 
 @media screen and (max-width: 768px) {
   body {
+    background: radial-gradient(
+      100% 100% at 50% 50%,  /* Ajuste de las proporciones del gradiente */
+      #000 50%, 
+      rgb(51, 95, 238) 100%
+    );
     background-attachment: scroll;/* Aplica 'local' solo en pantallas pequeñas */
   }
 }
