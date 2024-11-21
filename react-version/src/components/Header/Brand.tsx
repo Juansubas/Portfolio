@@ -1,5 +1,3 @@
-import { Link } from "react-router-dom";
-
 const Brand = () => {
   return (
     <div className="flex justify-center">
