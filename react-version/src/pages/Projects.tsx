@@ -1,19 +1,23 @@
+import Card from "../components/Card";
+import { projects } from "../data/projectsData";
+
 const Projects = () => {
   return (
     <section id="projects" className="section">
-      <p>Bienvenido a mi portfolio</p>
-      <p>Ahora te presento unos proyectos realizados:</p>
-      <ol>
-        <li>
-          <a
-            href="https://www.mint.juansubas.com"
-            className="text-blue-500 hover:text-blue-700 underline"
-            target="_blank"
-          >
-            Link Mint
-          </a>
-        </li>
-      </ol>
+      <h1 className="self-center text-4xl pb-5">My Projects</h1>
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-10 w-10/12">
+        {projects.map((project) => {
+          return (
+            <Card
+              img={project.img}
+              title={project.title}
+              description={project.description}
+              link={project.link}
+              repo={project.repo}
+            />
+          );
+        })}
+      </div>
     </section>
   );
 };
