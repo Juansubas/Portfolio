@@ -1,7 +1,7 @@
 const Hero = () => {
   return (
     <section className="section mt-16">
-      <div className="grid md:grid-cols-[60%,40%] px-16 items-center truncate">
+      <div className="grid md:grid-cols-[60%,40%] px-16 items-center">
         <div className="flex flex-col m-4 text-black ">
           <h1 className="text-7xl font-bold text-white">Hola Mundo</h1>
           <h2 className="text-7xl font-bold text-white ">
