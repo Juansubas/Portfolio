@@ -38,5 +38,12 @@ body {
   background-size: cover; /* Asegura que el fondo cubra toda la pantalla */
   background-position: center center; /* Centra el fondo */
   min-height: 100vh;
+  height: 100%; /* Para cubrir toda la altura */
   color: var(--primary-color); /* Usar la variable para el color del texto */
+}
+
+@media (max-width: 768px) {
+  body {
+    background-attachment: local;/* Aplica 'local' solo en pantallas pequeñas */
+  }
 }
