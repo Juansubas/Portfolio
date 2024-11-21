@@ -3,17 +3,17 @@ export const Navbar = () => {
     <nav>
       <ul className="flex justify-center gap-2">
         <li>
-          <a href="#projects" className="hover:text-slate-500">
+          <a href="#projects" className="text-xl hover:text-slate-500">
             Projects
           </a>
         </li>
         <li>
-          <a href="#contact" className="hover:text-slate-500">
+          <a href="#contact" className="text-xl hover:text-slate-500">
             Contact
           </a>
         </li>
         <li>
-          <a href="#about" className="hover:text-slate-500">
+          <a href="#about" className="text-xl hover:text-slate-500">
             About
           </a>
         </li>
