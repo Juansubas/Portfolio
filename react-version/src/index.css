@@ -32,12 +32,8 @@ body {
   margin: 0;
   padding: 0;
   font-family: Arial, sans-serif;
-  background-color: var(
-    --background-color
-  ); /* Usar la variable para el fondo */
-  background: var(
-    --background-radial
-  ); /* Usar la variable para el fondo radial */
+  background-color: var(--background-color); /* Usar la variable para el fondo */
+  background: var(--background-radial); /* Usar la variable para el fondo radial */
   background-attachment: fixed; /* Hace que el fondo sea fijo al hacer scroll */
   background-size: cover; /* Asegura que el fondo cubra toda la pantalla */
   background-position: center center; /* Centra el fondo */
@@ -46,18 +42,8 @@ body {
   color: var(--primary-color); /* Usar la variable para el color del texto */
 }
 
-/* Fondo para pantallas más pequeñas (menos de 768px) */
 @media screen and (max-width: 768px) {
   body {
-    position: absolute;
-    background: radial-gradient(
-      125% 125% at 50% 10%,
-      #000 40%,
-      rgb(51, 95, 238) 100%
-    );
-    background-attachment: scroll; /* Aplica scroll para dispositivos móviles */
-    background-size: cover;
-    background-position: center top; /* Ajustar la posición del fondo */
-    min-height: 100vh;
+    background-attachment: fixed;/* Aplica 'local' solo en pantallas pequeñas */
   }
 }
