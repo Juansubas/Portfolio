@@ -1,3 +1,5 @@
+import Juansubas from '../assets/juansubas.png';
+
 const Hero = () => {
   return (
     <section id="hero" className="section mx-auto self-center">
@@ -25,7 +27,7 @@ const Hero = () => {
 
         <div className="text-black flex justify-center mt-5 md:mt-0">
           <img
-            src="./public/juansubas.png"
+            src={Juansubas}
             alt="foto perfil"
             className="h-48 w-48 sm:h-64 sm:w-64 md:h-96 md:w-96 lg:h-[400px] lg:w-[400px] cursor-pointer rounded-full shadow-xl shadow-slate-700 hover:scale-105 hover:shadow-2xl hover:shadow-slate-900 transition-transform object-cover object-center"
           />
