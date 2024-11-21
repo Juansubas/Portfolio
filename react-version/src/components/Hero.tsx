@@ -1,6 +1,6 @@
 const Hero = () => {
   return (
-    <section className="section pt-5">
+    <section className="section mt-16">
       <div className="grid md:grid-cols-[60%,40%] px-16 items-center"> {/* Añadimos items-center para centrar el contenido */}
         <div className="flex flex-col m-4 text-black">
           <h1 className="text-7xl font-bold text-white">Hola Mundo</h1>
@@ -22,7 +22,7 @@ const Hero = () => {
         </div>
 
         <div className=" text-black flex justify-center">
-          <img src="./juansubas.png" alt="foto perfil" className="max-w-full h-96 object-cover object-center" /> 
+          <img src="./juansubas.png" alt="foto perfil" className="h-96 object-cover object-center" /> 
         </div>
       </div>
     </section>
