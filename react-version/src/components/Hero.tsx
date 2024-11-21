@@ -1,7 +1,7 @@
 const Hero = () => {
   return (
     <section className="section pt-5">
-      <div className="grid grid-cols-[60%,40%] ">
+      <div className="grid md:grid-cols-[60%,40%] ">
         <div className="bg-gray-200 m-4 text-black">
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est cum vel
           et ratione accusamus, odit vero numquam, at officia ipsum quidem
