@@ -1,8 +1,8 @@
 const Hero = () => {
   return (
     <section className="section pt-5">
-      <div className="grid md:grid-cols-[60%,40%] px-16">
-        <div className="flex flex-col  m-4 text-black">
+      <div className="grid md:grid-cols-[60%,40%] px-16 items-center"> {/* Añadimos items-center para centrar el contenido */}
+        <div className="flex flex-col m-4 text-black">
           <h1 className="text-7xl font-bold text-white">Hola Mundo</h1>
           <h2 className="text-7xl font-bold text-white">
             Soy{" "}
@@ -21,11 +21,8 @@ const Hero = () => {
           </p>
         </div>
 
-        <div className="bg-gray-300 m-4 text-black">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere
-          vitae, voluptates aspernatur, est ex molestiae sed accusamus ipsum
-          minima eaque quo? Molestias illo corrupti deleniti magni neque
-          asperiores praesentium similique.
+        <div className=" text-black flex justify-center">
+          <img src="./juansubas.png" alt="foto perfil" className="max-w-full h-96" /> 
         </div>
       </div>
     </section>
