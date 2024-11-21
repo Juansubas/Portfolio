@@ -14,13 +14,13 @@ const Header = () => {
 
   return (
     <header className=" w-full" aria-label="Header">
-      <div className="hidden md:grid grid-cols-3  w-full bg-transparent pt-6 shadow-md">
+      <div className="fixed hidden md:grid grid-cols-3  w-full bg-[rgba(0,0,0,0.5)] backdrop-blur-md pt-6 shadow-md">
         <Brand />
         <Navbar />
         <SocialLinks />
       </div>
 
-      <div className="md:hidden grid grid-cols-[95%,05%] items-center w-full bg-transparent pt-6 shadow-md">
+      <div className="fixed px-5 md:hidden flex flex-row justify-between items-center w-full bg-[rgba(0,0,0,0.5)] backdrop-blur-md pt-6 shadow-md">
         <Brand />
         {!isOpen ? (
           <GiHamburgerMenu onClick={menuOpen} size={30} />
@@ -28,6 +28,8 @@ const Header = () => {
           <MdClose onClick={menuOpen} size={30} />
         )}
       </div>
+      <div className="fixed md:hidden mt-14 w-full bg-[rgba(0,0,0,0.5)] backdrop-blur-md">{isOpen && <Navbar />}</div>
+
     </header>
   );
 };
