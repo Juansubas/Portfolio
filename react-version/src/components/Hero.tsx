@@ -22,7 +22,6 @@ const Hero = () => {
         </div>
 
         <div className=" text-black flex justify-center">
-          <img src="./juansubas.png" alt="foto perfil" className="h-96 object-cover object-center" /> 
         </div>
       </div>
     </section>
