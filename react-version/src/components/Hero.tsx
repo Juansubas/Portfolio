@@ -1,6 +1,6 @@
 const Hero = () => {
   return (
-    <section className="section mt-16">
+    <section className="section mt-16 md:mt-5">
       <div className="grid md:grid-cols-[60%,40%] px-16 items-center">
         <div className="flex flex-col m-4 text-black ">
           <h1 className="text-7xl font-bold text-white">Hola Mundo</h1>
@@ -25,7 +25,7 @@ const Hero = () => {
           <img
             src="./juansubas.png"
             alt="foto perfil"
-            className="h-96 object-cover object-center"
+            className="h-80 w-80 md:h-96 md:w-96 cursor-pointer rounded-full shadow-xl shadow-slate-700 hover:scale-105 hover:shadow-2xl hover:shadow-slate-900 object-cover object-center"
           />
         </div>
       </div>
