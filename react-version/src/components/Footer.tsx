@@ -4,7 +4,7 @@ const Footer = () => {
       <div className="text-center text-white">
         <p className="text-lg sm:text-xl font-medium">
           Made with ❤️ by{" "}
-          <span className="font-bold text-teal-400 hover:text-teal-600 transition duration-300">
+          <span className="font-bold text-blue-300 hover:text-blue-800 transition duration-300">
             Juansubas
           </span>
         </p>

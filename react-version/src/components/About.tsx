@@ -9,12 +9,12 @@ const About = () => {
           <img
             src="./public/cracks.jpg"
             alt="Foto de Juansubas"
-            className="h-64 w-64 sm:h-80 sm:w-80 lg:h-96 lg:w-96 rounded border-2 border-teal-500 shadow-lg hover:scale-105 transition-transform object-cover"
+            className="h-64 w-64 sm:h-80 sm:w-80 lg:h-96 lg:w-96 rounded border-2 border-blue-700 shadow-lg hover:scale-105 transition-transform object-cover"
           />
         </div>
 
         <div className="text-center lg:text-left text-white space-y-6">
-          <h1 className="text-4xl md:text-6xl font-bold bg-gradient-to-r from-teal-100 via-teal-400 to-teal-700 text-transparent bg-clip-text">
+          <h1 className="text-4xl md:text-6xl font-bold bg-gradient-to-r from-gray-400 via-blue-900 to-blue-950 text-transparent bg-clip-text">
             Acerca de mí
           </h1>
           <p className="text-lg md:text-xl leading-relaxed">
@@ -28,7 +28,7 @@ const About = () => {
           </p>
 
           <div>
-            <h2 className="text-xl font-semibold text-teal-400">
+            <h2 className="text-xl font-semibold text-blue-900">
               Tecnologías que uso:
             </h2>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mt-4">
