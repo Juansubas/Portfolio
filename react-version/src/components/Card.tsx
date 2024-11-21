@@ -12,27 +12,39 @@ const Card = ({
   repo: string;
 }) => {
   return (
-    <section className="bg-slate-800 rounded-lg px-3 py-3 flex flex-col justify-between h-full">
-      <img src={img} alt="image" className="self-center h-[200px] w-[380px] object-cover rounded-lg mb-2" />
-      <h1 className="text-xl font-bold">{title}</h1>
-      <p className="text-white overflow-hidden text-ellipsis  h-[70px]">{description}</p> 
-      <div className="flex flex-row justify-between mt-2">
-        <a
-          className="bg-slate-500 text-white px-4 py-2 rounded-md hover:bg-slate-700"
-          href={link}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Live Preview
-        </a>
-        <a
-          className="bg-slate-500 text-white px-4 py-2 rounded-md hover:bg-slate-700"
-          href={repo}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Repository
-        </a>
+    <section className="bg-gray-900 rounded-lg overflow-hidden shadow-lg transform transition-transform duration-300 hover:scale-105 hover:shadow-2xl">
+      {/* Imagen del proyecto */}
+      <img
+        src={img}
+        alt="image"
+        className="w-full h-56 object-cover"
+      />
+      <div className="p-5">
+        {/* Título del proyecto */}
+        <h1 className="text-2xl font-semibold text-white mb-3">{title}</h1>
+        
+        {/* Descripción del proyecto */}
+        <p className="text-sm text-gray-300 line-clamp-3 mb-4">{description}</p>
+        
+        {/* Controles de enlace */}
+        <div className="flex justify-between items-center">
+          <a
+            className="text-teal-400 hover:text-teal-600 font-medium transition duration-300"
+            href={link}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Live Preview
+          </a>
+          <a
+            className="text-teal-400 hover:text-teal-600 font-medium transition duration-300"
+            href={repo}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Repository
+          </a>
+        </div>
       </div>
     </section>
   );

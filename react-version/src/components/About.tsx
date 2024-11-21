@@ -3,7 +3,7 @@ import { SiNestjs, SiDotnet, SiTailwindcss, SiNextdotjs } from "react-icons/si";
 
 const About = () => {
   return (
-    <section id="about" className="section mx-auto py-12 bg-gray-900">
+    <section id="about" className="section mx-auto py-12 bg-gray-900 rounded-lg">
       <div className="grid grid-cols-1 lg:grid-cols-[40%,60%] gap-8 px-5 md:px-16 lg:px-24 items-center">
         <div className="flex justify-center lg:justify-start">
           <img
@@ -67,7 +67,6 @@ const About = () => {
             </div>
           </div>
 
-          {/* Frase inspiracional */}
           <p className="text-lg italic font-light mt-4">
             "Tu idea, mi código. Juntos transformamos tus desafíos en soluciones
             digitales poderosas que impulsan tu negocio al siguiente nivel."
