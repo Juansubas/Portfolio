@@ -6,7 +6,7 @@ const ContactPage = () => {
       <div className="grid grid-cols-1 lg:grid-cols-[40%,60%] gap-8 px-5 md:px-16 lg:px-24 items-center">
         <div className="flex justify-center lg:justify-start">
           <img
-            src="./public/contact.jpg"
+            src="../assets/Contact.jpg"
             alt="Foto de contacto"
             className="h-64 w-64 sm:h-80 sm:w-80 lg:h-96 lg:w-96 rounded-full border-2 border-blue-900 shadow-lg hover:scale-105 transition-transform object-fit"
           />
