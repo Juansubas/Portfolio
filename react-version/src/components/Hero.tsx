@@ -1,8 +1,8 @@
 const Hero = () => {
   return (
     <section className="section mt-16">
-      <div className="grid md:grid-cols-[60%,40%] px-16 items-center"> 
-        <div className="flex flex-col m-4 text-black">
+      <div className="grid md:grid-cols-[60%,40%] px-16 items-center truncate"> 
+        <div className="flex flex-col m-4 text-black truncate">
           <h1 className="text-7xl font-bold text-white">Hola Mundo</h1>
           <h2 className="text-7xl font-bold text-white truncate">
             Soy{" "}
@@ -21,7 +21,7 @@ const Hero = () => {
           </p> */}
         </div>
 
-        <div className=" text-black flex justify-center">
+        <div className=" text-black flex justify-center truncate">
           <img src="./juansubas.png" alt="foto perfil" className="h-96 object-cover object-center" /> 
         </div>
       </div>
