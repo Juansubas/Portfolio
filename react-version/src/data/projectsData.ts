@@ -1,4 +1,4 @@
-import Mint from '../assets/Mint.png';
+import Mint from '../assets/mint.png';
 
 export const projects = [
   {
