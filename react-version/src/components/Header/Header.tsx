@@ -14,7 +14,7 @@ const Header = () => {
 
   return (
     <header className=" w-full" aria-label="Header">
-      <div className="fixed hidden md:grid grid-cols-3  w-full bg-[rgba(0,0,0,0.5)] backdrop-blur-md pt-6 shadow-md">
+      <div className="fixed hidden md:grid grid-cols-3  w-full bg-[rgba(0,0,0,0.5)] backdrop-blur-md pt-6 pb-2 shadow-md">
         <Brand />
         <Navbar />
         <SocialLinks />
