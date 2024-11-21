@@ -6,7 +6,7 @@ const Hero = () => {
           <h1 className="text-7xl font-bold text-white">Hola Mundo</h1>
           <h2 className="text-7xl font-bold text-white">
             Soy{" "}
-            <span className="font-bold bg-gradient-to-r from-gray-400 via-blue-900 to-blue-950 text-transparent bg-clip-text">
+            <span className="w-full font-bold bg-gradient-to-r from-gray-400 via-blue-900 to-blue-950 text-transparent bg-clip-text truncate">
               Juansubas
             </span>
           </h2>
