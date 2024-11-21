@@ -3,8 +3,8 @@ const Hero = () => {
     <section className="section mt-16">
       <div className="grid md:grid-cols-[60%,40%] px-16 items-center"> 
         <div className="flex flex-col m-4 text-black">
-          {/* <h1 className="text-7xl font-bold text-white">Hola Mundo</h1>
-          <h2 className="text-7xl font-bold text-white">
+          <h1 className="text-7xl font-bold text-white">Hola Mundo</h1>
+          {/* <h2 className="text-7xl font-bold text-white">
             Soy{" "}
             <span className="font-bold bg-gradient-to-r from-gray-400 via-blue-900 to-blue-950 text-transparent bg-clip-text">
               Juansubas
