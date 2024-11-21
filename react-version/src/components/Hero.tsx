@@ -21,7 +21,7 @@ const Hero = () => {
           </p>
         </div>
 
-        <div className=" text-black flex justify-center ">
+        <div className=" text-black flex justify-center mt-5 md:mt-0">
           <img
             src="./juansubas.png"
             alt="foto perfil"
