@@ -42,8 +42,8 @@ body {
   color: var(--primary-color); /* Usar la variable para el color del texto */
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
   body {
-    background-attachment: local;/* Aplica 'local' solo en pantallas pequeñas */
+    background-attachment: scroll;/* Aplica 'local' solo en pantallas pequeñas */
   }
 }
