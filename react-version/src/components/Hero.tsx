@@ -1,19 +1,20 @@
 const Hero = () => {
   return (
-    <section className="section">
-      <p>Bienvenido a mi portfolio</p>
-      <p>Ahora te presento unos proyectos realizados:</p>
-      <ol>
-        <li>
-          <a
-            href="https://www.mint.juansubas.com"
-            className="text-blue-500 hover:text-blue-700 underline"
-            target="_blank"
-          >
-            Link Mint
-          </a>
-        </li>
-      </ol>
+    <section className="section pt-5">
+      <div className="grid grid-cols-[60%,40%] ">
+        <div className="bg-gray-200 m-4 text-black">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est cum vel
+          et ratione accusamus, odit vero numquam, at officia ipsum quidem
+          dolorem! Accusantium necessitatibus consectetur praesentium, ratione
+          pariatur asperiores at.
+        </div>
+        <div className="bg-gray-300 m-4 text-black">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere
+          vitae, voluptates aspernatur, est ex molestiae sed accusamus ipsum
+          minima eaque quo? Molestias illo corrupti deleniti magni neque
+          asperiores praesentium similique.
+        </div>
+      </div>
     </section>
   );
 };
