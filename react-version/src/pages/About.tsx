@@ -1,7 +1,11 @@
-const About = () => {
-  return (
-    <section id="about" className="section">About</section>
-  )
-}
+import About from "../components/About"; // O la ruta correcta
 
-export default About
+const AboutPage = () => {
+  return (
+    <section id="about" className="section">
+      <About />
+    </section>
+  );
+};
+
+export default AboutPage;
